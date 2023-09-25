@@ -1,5 +1,6 @@
 {
   "name": "little-lemon-project",
+  "homepage": "https://dkurmaiev.github.io/little-lemon-project/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
