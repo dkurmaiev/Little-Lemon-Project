@@ -1,0 +1,636 @@
+/* Header.jsx */
+
+.header {
+    background-color: white;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .logo img {
+    max-width: 250px;
+  }
+  
+  .nav-list {
+    list-style: none; 
+    display: flex; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  .nav-item {
+    margin-right: 200px; 
+  }
+  
+  .nav-item a {
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold;
+  }
+  
+  .nav-item a.active {
+    color: rgb(34, 0, 255); 
+  }
+  
+
+
+  /* Home.jsx */
+
+.home-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: rgb(55, 63, 57); 
+    padding: 20px;
+    color: white; 
+    
+  }
+  .home-banner h1 {
+    margin-top: 20px; 
+  }
+  
+ 
+  .banner-content {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    align-items: center;
+    
+  }
+  
+  
+  .banner-text h1,
+  .banner-text p {
+    font-size: 40px; 
+    margin: 10px;
+  }
+  
+  /* Styles for short description */
+  .banner-text p:nth-child(3) {
+    font-size: 18px; 
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+/* Styles for the "Reserve a table" button */
+  .reserve-button {
+    background-color: gold; 
+    color: black; 
+    border: none;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-transform: uppercase; 
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+
+  .banner-image img {
+    max-width: 100%; 
+    height: auto;
+  }
+
+.restaurant-info {
+    background-color: gold;
+    color: #000000;
+    padding: 20px;
+    width: 50%; 
+    float: left; 
+  }
+  
+ 
+  .restaurant-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the restaurant name */
+  .restaurant-info h2:first-child {
+    font-size: 36px;
+  }
+  
+ 
+  .restaurant-info p {
+    font-size: 16px;
+  }
+  
+  
+  .order-button {
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  
+  .restaurant-image {
+    width: 50%; 
+    float: right; 
+  }
+  
+  
+  .restaurant-image img {
+    width: 100%; 
+  }
+  .featured-dishes {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50;
+  }
+  
+  .center-text {
+    font-size: 24px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .dishes {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .dish {
+    flex: 1;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px;
+  }
+  
+  .dish:last-child {
+    margin-right: 0;
+  }
+  
+  .dish img {
+    max-width: 100%;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .dish h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .dish p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+    button {
+    background-color: #f4ce14;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  button:hover {
+    background-color: #ffdb58; 
+  }
+  
+  button a {
+    text-decoration: none;
+    color: inherit;
+  }
+  .dish {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease; 
+  }
+  
+  
+  .dish:hover {
+    transform: scale(1.1); 
+  }
+
+.customer-reviews{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.reviews {
+    display: grid;
+    
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    max-width: 80%; 
+    margin: 0 auto; 
+  }
+  
+ 
+  .review {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%; 
+  }
+  .review .reviewer-info span {
+    font-weight: bold;
+  }  
+
+
+  /* Footer */
+  
+.footer {
+    
+     
+    background-color: rgb(55, 63, 57); 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+  }
+  
+ 
+  .footer-content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+  
+  .footer-logo img {
+    width: 100px; 
+    height: auto; 
+  }
+  
+ 
+  .footer h3 {
+    font-size: 18px; 
+    margin-bottom: 15px; 
+  }
+  
+  
+  .footer ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+  }
+  
+ 
+  .footer li {
+    margin-bottom: 5px; 
+  }
+  
+ 
+  .footer a {
+    color: #f4ce14; 
+    text-decoration: none; 
+    transition: color 0.2s; 
+  }
+  
+  
+  .footer a:hover {
+    color: #fff; 
+  }
+  
+  
+  .footer-column {
+    flex: 1; 
+    text-align: left;
+    padding: 20px 20px 0 20px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+  }
+  
+  .footer-navigation {
+    flex: 1; 
+    margin-left: 20px; 
+    margin-right: 20px;
+    
+  }
+  .footer-contact {
+    flex: 1; 
+    margin-left: 20px; 
+    margin-right: 20px;
+   
+  }
+  .footer-connect {
+    flex: 1; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    
+  }
+
+
+
+  /* AboutUs.jsx */
+ 
+.about-us {
+    background-color: #f4f4f4; 
+    padding: 40px; 
+    text-align: center; 
+  }
+  
+ 
+  .about-us-title {
+    font-size: 28px; 
+    margin-bottom: 20px; 
+    color: #333; 
+  }
+  
+  
+  .about-us-content {
+    font-size: 16px; 
+    line-height: 1.6; 
+    color: #666; 
+  }
+
+
+
+  /* Menu.jsx */
+ 
+.menu-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; 
+  }
+  
+  
+  .menu-category {
+    margin-bottom: 40px;
+  }
+  
+  
+  .menu-category-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #f4ce14; 
+  }
+  
+  
+  .menu-item {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  .menu-item-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333; 
+  }
+  
+  
+  .menu-item-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #666; 
+  }
+  
+ 
+  .menu-item-price {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ffd400;
+  }
+  
+  
+  .menu-item-weight,
+  .menu-item-volume,
+  .menu-item-size {
+    font-size: 14px;
+    color: #666; 
+  }
+  
+ 
+  .menu-item-button {
+    background-color: #f4ce14; 
+    color: #000; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+  
+  
+  .menu-item-button:hover {
+    background-color: #333; 
+    color: #fff; 
+  }
+  
+  /* Cart */
+  .cart {
+    background-color: rgb(55, 63, 57); 
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    color: white;
+  }
+  
+  
+  .cart-title { 
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff; 
+    margin-left: 10px;
+  }
+  
+  
+  .cart-empty {
+    font-size: 16px;
+    color: #ffffff; 
+  }
+  
+  
+  .cart-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+ 
+  .cart-item {
+    font-size: 16px;
+    color: #ffffff; 
+    margin-bottom: 5px;
+    
+  }
+  .menu-item-quantity-button {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  
+  .menu-item-button-separator {
+    width: 5px;
+    display: inline-block;
+  }
+  .menu-item-quantity {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+  }
+  
+ 
+  .menu-item-button {
+    background-color: #f4ce14;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    top: 20px; 
+    right: 20px; 
+  }
+  .remove-from-cart-button{
+    background-color: rgb(55, 63, 57); 
+  color: white ; 
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+  }
+  .remove-from-cart-button:hover {
+    background-color: darkgray; 
+  }
+
+  .menu-category {
+    margin-top: 20px; 
+    font-weight: bold; 
+    text-align: center; 
+  }
+
+
+  
+   .order-details {
+    display: flex;
+  gap: 10px; 
+  margin-left: 10px; 
+  align-items: center; 
+}
+  
+  .order-button {
+    height: 40px; 
+    width: auto; 
+  }
+  
+  .order-input {
+    height: 40px;
+    width: auto; 
+    padding: 5px; 
+  }
+
+  .cart-total {
+    margin-left: 10px; 
+  }
+   
+ 
+
+   /* Reservation */
+     
+  .reservation-page{
+    background-color: rgb(55, 63, 57) ;
+    color: white;
+    align-items: center;
+    padding: 50px;
+  }
+
+ 
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+   
+  }
+  
+  .form {
+    width: 500px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px, ;
+    display: block;
+    color: #000;
+    
+    
+    
+  }
+  
+  .input {
+    width: 90%;
+    padding: 10px ;
+    font-size: 16px;
+    margin: 5px 0px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+    
+  }
+  
+  .button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: gold;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #000;
+  }
+  #occasion {
+    width: 95%;
+  }
+  #time {
+    width: 95%;
+  }
+  
+  
+  
+  
+  
+  
